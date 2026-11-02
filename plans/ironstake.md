@@ -109,6 +109,12 @@ years. Sellers who list on Iron Stake may want a conventional listing later.
 Keep both lists in one CRM with a source tag, and make sure your agent
 disclosures cover the relationship.
 
+## The legal model
+
+Iron Stake is a publisher, not a broker. The reasoning, the five lines that
+keep it that way, and what counsel must confirm per state are in
+[ironstake-legal-model.md](ironstake-legal-model.md).
+
 ## Before any of this
 
 The owner checks and counsel sign-off in the launch status doc. Marketing a

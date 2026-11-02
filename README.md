@@ -10,6 +10,7 @@ Properties covered:
 | CodeMode Apps (codemodeapps.com) | Hub for 16 live affiliate / research aggregator sites | [plans/aggregators.md](plans/aggregators.md) |
 | Low Key Mode (lowkeymode.com) | iOS calm-score + Tone Studio app, pre-launch | [plans/lowkeymode.md](plans/lowkeymode.md) |
 | Iron Stake (iron-stake.com) | Lease-to-purchase listing marketplace, pre-launch | [plans/ironstake.md](plans/ironstake.md) |
+| Iron Stake legal model | Why it is a publisher and the lines that keep it one | [plans/ironstake-legal-model.md](plans/ironstake-legal-model.md) |
 | Web design (Baseline Designs / CodeMode custom builds) | Services business, the cash engine | [plans/webdesign.md](plans/webdesign.md) |
 | Real estate | Agent business, feeds and is fed by Iron Stake | [plans/realestate.md](plans/realestate.md) |
 
