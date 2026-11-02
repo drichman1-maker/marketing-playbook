@@ -22,20 +22,26 @@ Read from the repos `agg-monorepo`, `codemode-site`, `lowkeymode-landing-page`,
 `iron-stake` and `ironstake-sites`. The live sites could not be fetched from the
 session, so this is what the code says, not what the browser shows.
 
-1. **Nothing is measured.** No analytics tag and no email capture appear in the
-   homepages of codemodeapps.com, lowkeymode.com or iron-stake.com. The
-   aggregator sites were not checked one by one, but the hub has none. Every
-   decision below depends on fixing this first.
+1. **Traffic is measured, search demand is not.** Cloudflare Web Analytics
+   runs on every property (owner confirmed; it is injected at the edge, so
+   it does not show in the repos). Cloudflare gives page views and
+   referrers but not the queries people searched, so Google Search Console
+   and Bing Webmaster Tools still need verifying per domain and subdomain.
+   No email capture appears on the codemodeapps, lowkeymode or iron-stake
+   homepages, and that is the bigger gap.
 2. **The existing marketing strategy doc is an empty template.**
    `agg-monorepo/marketing-strategy-2026.md` has headings and no content.
    `SEO-HYPE-TRACKER.md` lists social handles to secure; none are ticked.
 3. **The affiliate side is in good shape.** `affiliate-registry.json` is a
    disciplined single source of truth with Amazon Associates active and
    per-site tags. Monetization is not the bottleneck. Traffic is.
-4. **Seventeen properties, one person.** Sixteen aggregator sites plus Low Key
-   Mode on the hub. Seven of them live on `codemodeapps.com` subdomains, nine
-   on their own domains. Effort is spread evenly across all of them, which
-   means none of them gets enough to rank.
+4. **Seventeen properties, one person, four in focus.** Sixteen aggregator
+   sites plus Low Key Mode on the hub. Seven live on `codemodeapps.com`
+   subdomains, nine on their own domains. The owner already concentrates on
+   TheresMac, GPU Drip, Mint Condition and SluggerData; the rest get some
+   traffic with little upkeep. The plan keeps that split and makes it
+   explicit: the four get content and community time, the twelve get
+   automation only.
 5. **Low Key Mode's beta flow is a mailto link.** Requesting beta access opens
    the visitor's mail app with a draft. That loses most of the people who
    click. A TestFlight public link or a one-field form fixes it in an hour.
@@ -50,10 +56,12 @@ session, so this is what the code says, not what the browser shows.
 
 ## The three rules
 
-1. **Measure before marketing.** Week 1 is analytics and Search Console on
-   every property. No channel work until a baseline exists.
-2. **Concentrate.** Three aggregator sites get real attention. The other
-   thirteen get automation only. Low Key Mode gets a two-week sprint. Iron
-   Stake gets supply-side outreach, not awareness.
+1. **Know the queries, not just the visits.** Week 1 is Search Console on
+   every property and email capture on the four focus sites. Cloudflare
+   already covers visits.
+2. **Concentrate.** Four aggregator sites get real attention. The other
+   twelve get automation only and keep earning. Low Key Mode gets a two-week
+   sprint. Iron Stake gets supply-side outreach in NC and GA vacation
+   markets, not awareness.
 3. **One channel, daily.** Build in public in one place. Everything else is
    automated or scheduled, not improvised.

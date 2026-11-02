@@ -17,9 +17,9 @@ original material will sit near zero no matter how clean the code is. The
 way out is not more sites. It is making three of them the kind of site
 people cite.
 
-## Pick three
+## The four focus sites
 
-Default picks until Search Console says otherwise:
+Already chosen by the owner, and the right four:
 
 1. **TheresMac.** Apple deal hunting is a huge, searchable, seasonal market
    and the site already has price history and alerts. November and December
@@ -29,9 +29,12 @@ Default picks until Search Console says otherwise:
    people genuinely want.
 3. **Mint Condition.** Graded Pokemon and comics have obsessive communities
    and the data (PSA population, sold comps) makes shareable charts.
+4. **SluggerData.** Baseball cards are the oldest and most data-literate
+   collecting hobby. Grading education plus a curated index of key cards is
+   exactly what r/baseballcards and the Blowout forums argue about weekly.
 
-Swap any of these after the two-week baseline if another site shows more
-impressions.
+The content job is the same on all four and Mint Condition and SluggerData
+can share one monthly "graded card index" format with different data.
 
 ## What each focus site gets
 
@@ -61,17 +64,19 @@ impressions.
   linking the site. Reddit karma on the account matters.
 - Discords: PC building servers, Pokemon investing servers. Same rules.
 
-## The other thirteen
+## The other twelve
 
-Keep them live, indexed and automated. No manual time. Specifically:
+They already get some traffic with little upkeep, which is the right state.
+Keep them live, indexed and automated. No new manual time. Specifically:
 
-- Analytics and Search Console verification, once.
+- Analytics and Search Console and Bing verification, once. Cloudflare analytics is already there.
 - Automated daily deal post if the scraper already exists for that niche.
-- Shared footer cross-links to the three focus sites and to Low Key Mode.
-- Review in February. Any site under 50 clicks a month is parked: left
-  online, removed from the hub's "LIVE" list, no further deploys.
+- Shared footer cross-links to the four focus sites and to Low Key Mode.
+- Review in February with Search Console data. A site that is growing on
+  its own gets considered for the focus slot of the weakest of the four. A
+  site that is flat keeps running untouched. Nothing gets taken down.
 
-Do not launch another aggregator until one of the three focus sites clears
+Do not launch another aggregator until one of the four focus sites clears
 1,000 search clicks a month.
 
 ## The hub (codemodeapps.com)

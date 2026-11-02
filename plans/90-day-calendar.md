@@ -7,31 +7,31 @@ long-tail aggregator work first, never the measurement.
 
 ## Weeks 1 to 2: measure and unblock (3 to 16 Nov)
 
-- [ ] Add a privacy-friendly analytics tag to every property. Plausible,
-      Umami self-hosted, or Cloudflare Web Analytics (free). One shared
-      component in `agg-monorepo` so the sixteen sites get it in one deploy.
+- [ ] Cloudflare Web Analytics is already on every property. Export a
+      30-day page-view snapshot per site into `metrics/2026-11-baseline.md`
+      so there is a before number.
 - [ ] Verify every domain and subdomain in Google Search Console and Bing
-      Webmaster Tools. Submit each sitemap.
-- [ ] Add an email capture to the three focus aggregator sites and to
+      Webmaster Tools. Submit each sitemap. This is the query-level data
+      Cloudflare cannot give you and it drives the content picks.
+- [ ] Add an email capture to the four focus aggregator sites and to
       lowkeymode.com. Buttondown free tier or a Formspree form into a sheet.
 - [ ] Replace the Low Key Mode mailto beta request with a TestFlight public
       link, or a one-field form if the build is not ready.
 - [ ] Record a baseline: impressions, clicks and top queries per site from
       Search Console after 14 days of data. Put it in `metrics/` in this repo.
-- [ ] Secure the social handles in `SEO-HYPE-TRACKER.md` for the three focus
+- [ ] Secure the social handles in `SEO-HYPE-TRACKER.md` for the four focus
       sites, Low Key Mode and Iron Stake only. Skip the rest.
 
-## Weeks 3 to 4: pick the three and launch Low Key Mode (17 to 30 Nov)
+## Weeks 3 to 4: content starts and Low Key Mode launches (17 to 30 Nov)
 
-- [ ] Rank the sixteen aggregators by Search Console impressions. Pick the top
-      three. If data is thin, default to TheresMac, GPU Drip and Mint
-      Condition (own domains, large deal-hunting communities, seasonal peak in
-      November and December).
+- [ ] Focus sites are TheresMac, GPU Drip, Mint Condition and SluggerData.
+      Pull each one's page-two queries from Search Console (positions 8 to
+      20 with impressions) and list the ten pages to improve first.
 - [ ] Low Key Mode launch sprint. Full checklist in `lowkeymode.md`. Target
       launch day: Tuesday 25 November or the first Tuesday after the App
       Store approval lands.
-- [ ] Iron Stake: build the seller prospect list (200 names). Details in
-      `ironstake.md`.
+- [ ] Iron Stake: build the seller prospect list (200 names) across the NC
+      and GA vacation markets. Details in `ironstake.md`.
 - [ ] Web design: send the first batch of 20 Loom audits. Details in
       `webdesign.md`.
 
@@ -43,21 +43,22 @@ long-tail aggregator work first, never the measurement.
 - [ ] Automate a daily "biggest price drop" post per focus site to X and
       Bluesky from the existing scraper output. Zero marginal effort once
       built.
-- [ ] Iron Stake: 50 seller conversations. Goal is ten approved listings in
-      one metro before any buyer marketing.
+- [ ] Iron Stake: 50 seller conversations. Goal is ten approved listings
+      across the NC and GA vacation markets before any buyer marketing.
 - [ ] Web design: second batch of 20 audits. Follow up the first batch.
 - [ ] Low Key Mode: post-launch, reply to every review, ship one update,
       pitch three app roundup newsletters.
 
 ## Weeks 9 to 13: double down or cut (29 Dec to 1 Feb)
 
-- [ ] Review the metrics. Any focus site that has not doubled impressions
-      gets swapped for the next best one.
-- [ ] Park aggregator sites with under 50 clicks a month. Keep them live and
-      indexed, stop touching them.
+- [ ] Review the metrics. Any focus site that has not grown impressions
+      by half gets its content hours cut back to automation only, and the
+      strongest long-tail site takes its slot.
+- [ ] Long-tail sites keep running as they do now. No new manual time; the
+      shared deal-post automation and cross-links are the only changes.
 - [ ] Iron Stake: once ten real listings exist, start buyer-side posting in
-      local Facebook groups and r/realestateinvesting, and run the first
-      email to the real estate list.
+      the area Facebook groups, r/FirstTimeHomeBuyer and
+      r/realestateinvesting, then begin the Colorado seller list.
 - [ ] Write the quarter review in `metrics/2027-q1-review.md`.
 
 ## Weekly operating rhythm
@@ -77,8 +78,8 @@ Track these monthly in `metrics/`. Nothing else until these move.
 
 | Property | Leading metric | Lagging metric |
 |---|---|---|
-| Focus aggregators | Search impressions | Affiliate clicks and earnings |
-| Long-tail aggregators | Indexed pages, zero effort | Earnings |
+| Focus aggregators (4) | Search impressions and email signups | Affiliate clicks and earnings |
+| Long-tail aggregators (12) | Page views hold or grow with zero manual time | Earnings |
 | Low Key Mode | Waitlist and TestFlight signups, then App Store page views | Downloads, subscriptions |
 | Iron Stake | Seller conversations per week | Paid, approved listings |
 | Web design | Audits sent | Proposals, closed projects |
